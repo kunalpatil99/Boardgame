@@ -55,7 +55,7 @@ jobs:
           distribution: temurin
           java-version: '17'
           cache: maven
-          server-id: nexus
+          server-id: maven-snapshots
           server-username: NEXUS_USERNAME
           server-password: NEXUS_PASSWORD
 
